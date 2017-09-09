@@ -34,7 +34,7 @@
             android:paddingLeft="@dimen/card_text_padding"
             android:paddingRight="@dimen/card_text_padding"
             android:paddingTop="@dimen/card_text_padding"
-            android:textColor="@color/theme_primary"
+            android:textColor="@android:color/white"
             android:textSize="18sp"
             tools:text="Some article title" />
 
@@ -48,7 +48,8 @@
             android:paddingBottom="@dimen/card_text_padding"
             android:paddingLeft="@dimen/card_text_padding"
             android:paddingRight="@dimen/card_text_padding"
-            android:textColor="@color/subtitle_color"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/ltgray"
             android:textSize="14sp"
             tools:text="Article subtitle\nauthor name" />
     </LinearLayout>
